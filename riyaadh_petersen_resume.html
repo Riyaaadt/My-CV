@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyaadh Petersen - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('C:\\Users\\User\\Desktop\\casino-background-9o4pqrpgmrk3lszu.jpg'); /* Add your background image URL here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: rgba(0, 123, 255, 0.6); /* Add a semi-transparent background color to the header */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color to the container */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #FFD700; /* Golden Yellow for the name */
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #FF4500; /* Orange Red for section headings */
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .accordion-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            text-align: left;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .accordion-content {
+            display: none;
+            padding: 10px;
+        }
+
+        img {
+            max-width: 200px; /* Adjust the max-width to your preferred size */
+            height: auto;
+            border-radius: 50%; /* Add a circular border to your image */
+            display: block;
+            margin: 0 auto 20px; /* Center the image and add some margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\User\Desktop\cv photo .PNG" alt="Riyaadh Petersen">
+        <h1>Riyaadh Petersen</h1>
+        <p>Risk and Fraud Analyst</p>
+    </header>
+
+    <div class="container">
+        <!-- Contact Information, Objective, and other sections here -->
+
+        <!-- Job Experience (Add your job experience here) -->
+        <h2>Professional Experience</h2>
+        <button class="accordion-button" onclick="toggleAccordion('job1')">Junior Quantity Surveyor - Haw & Inglis Construction (2018 - 2019)</button>
+        <div id="job1" class="accordion-content">
+            Working as an assistant to a senior quantity surveyor has been a valuable experience in the construction industry for me. This role exposed me to a variety of tasks such as measuring quantities, preparing tender documents, managing contracts, and conducting site inspections. It has helped me to develop attention to detail and effective communication skills. Working alongside a senior quantity surveyor has also provided me with opportunities for mentorship and professional development, and has given me an excellent foundation for my career.
+        </div>
+
+        <button class="accordion-button" onclick="toggleAccordion('job2')">KYC Analyst - EXL (JUMIO CAMPAIGN) (2021 - 2022)</button>
+        <div id="job2" class="accordion-content">
+            As a verification expert for documents, I have gained extensive experience in assessing the authenticity of various documents, including identification cards, certificates, and legal documents. I have developed strong analytical skills, attention to detail, and the ability to identify fraudulent documents. This experience has equipped me with valuable knowledge and expertise in document verification, and has contributed to my professional growth in the field.
+        </div>
+
+        <button class="accordion-button" onclick="toggleAccordion('job3')">KYC Analyst - Moonspin Pty (2022 - July 2023)</button>
+        <div id="job3" class="accordion-content">
+            Worked as a KYC agent in an online casino, focusing on customer verification, fraud detection, and risk management. Gained insights into the online gaming industry, honing skills in attention to detail, communication, and problem-solving. Enhanced understanding of regulatory compliance requirements and data privacy and security in the industry.
+        </div>
+
+        <button class="accordion-button" onclick="toggleAccordion('job4')">Risk and Fraud Analyst - Moonspin Pty (July 2023 - Current)</button>
+        <div id="job4" class="accordion-content">
+            I am a dedicated Risk and Fraud Analyst with a keen interest in Anti-Money Laundering (AML), Enhanced Due Diligence (EDD), and risk management. Over a brief three-month period in my current role at Moonspin Pty, I've showcased a strong aptitude for rapid learning and an unwavering commitment to excellence. During my relatively short time in this position, I've been instrumental in conducting thorough fraud investigations, precision-driven transactional data analysis, and seamless collaboration with my team to bolster our fraud prevention strategies. I've also taken on regulatory compliance responsibilities with enthusiasm, ensuring our firm's adherence to AML laws and regulations. My adaptability, quick learning, and ability to thrive in a fast-paced environment make me an asset to my organization, and I look forward to continued growth and contributions.
+        </div>
+
+        <!-- Add other sections like Skills, Education, Hobbies, etc. -->
+    </div>
+
+    <script>
+        function toggleAccordion(id) {
+            const content = document.getElementById(id);
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
